@@ -43,17 +43,6 @@ function getDirections(){
     });
 }
 
-function closePersonDatePicker(){
-    $('#fNacimientoPersona').daterangepicker('hide');
-    $('#fNacimientoPersona').daterangepicker({
-        singleDatePicker: true,
-        calender_style: "picker_1",
-        showDropdowns: true,
-
-        format: 'DD/MM/YYYY'
-    });
-}
-
 function goToPersonasList(){
     window.location.href="personas.php";
 }
@@ -61,6 +50,15 @@ function goToPersonasList(){
 function getParam(name){
     var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
     return results[1] || undefined;
+}
+
+function openPersonDatePicker(){
+    $('#fNacimientoPersona').daterangepicker({
+        singleDatePicker: true,
+        calender_style: "picker_1",
+        showDropdowns: true,
+        format: 'DD/MM/YYYY'
+    });
 }
 
 function loadPersonData(){

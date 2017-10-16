@@ -5,6 +5,8 @@
 var directionsInputs=undefined;
 var directionValues=[];
 
+var calendar;
+
 $(document).ready(function() {
     if (!expiredCookie(window.USER_TOKEN)){
         setUserProfile();
@@ -39,13 +41,11 @@ function getDirections(){
     });
 }
 
-function closePersonDatePicker(){
-    $('#fNacimientoPersona').daterangepicker('hide');
+function openPersonDatePicker(){
     $('#fNacimientoPersona').daterangepicker({
         singleDatePicker: true,
         calender_style: "picker_1",
         showDropdowns: true,
-
         format: 'DD/MM/YYYY'
     });
 }

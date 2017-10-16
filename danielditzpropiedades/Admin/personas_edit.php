@@ -95,7 +95,7 @@
                                                             <label for="dniPersona_input" class="control-label">D.N.I.<span class="required">*</span></label>
                                                         </div>
                                                         <div class="short-div">
-                                                            <input type="text" id="dniPersona_input" required="required" class="form-control">
+                                                            <input type="text" id="dniPersona_input" required="required" class="form-control" onfocus="openPersonDatePicker()">
                                                         </div>
                                                     </div>
                                                 </div>
@@ -105,7 +105,7 @@
                                                             <label for="fNacimientoPersona" class="control-label">Fecha Nacimiento</label>
                                                         </div>
                                                         <div class="short-div input-prepend input-group">
-                                                            <input type="text" id="fNacimientoPersona"  class="form-control" onfocusout="closePersonDatePicker();">
+                                                            <input type="text" id="fNacimientoPersona"  class="form-control">
                                                             <span class="add-on input-group-addon"><i class="glyphicon glyphicon-calendar fa fa-calendar"></i></span>
                                                         </div>
                                                     </div>
@@ -116,7 +116,7 @@
                                                             <label for="telefonoPersona_input" class="control-label">Teléfono</label>
                                                         </div>
                                                         <div class="short-div">
-                                                            <input type="text" id="telefonoPersona_input" class="form-control">
+                                                            <input type="text" id="telefonoPersona_input" class="form-control" onfocus="openPersonDatePicker()">
                                                         </div>
                                                     </div>
                                                 </div>
