@@ -189,35 +189,43 @@ class Persona
 
     /** edit funtions **/
     private function editRegisteredPerson($id_persona,$nombre,$apellido,$dni,$fNacimiento,$telefonoId,$telefono,$celularId,$celular,$direccionId,$calle,$nro,$piso,$dpto,$ciudad,$provincia,$id_usuario){
+
         try{
             $edited_phone=true;
             $edited_mobile=true;
-            if ($telefonoId != "")
-                $edited_phone=Telefono::getInstance()->editPhone($telefonoId,$telefono,$id_usuario);
-            if ($celularId != "")
-                $edited_mobile=Telefono::getInstance()->editPhone($celularId,$celular,$id_usuario);
+            if ($telefonoId != "") {
+                $edited_phone = Telefono::getInstance()->editPhone($telefonoId, $telefono, $id_usuario);
+            }else{
+                $edited_phone=Telefono::getInstance()->addPhone(0,$telefono,$id_usuario);
+            }
+            if ($celularId != "") {
+                $edited_mobile = Telefono::getInstance()->editPhone($celularId, $celular, $id_usuario);
+            }else{
+                $edited_mobile=Telefono::getInstance()->addPhone(0,$celular,$id_usuario);
+            }
+
             $edited_direction=Direccion::getInstance()->editAddress($direccionId,$calle,$nro,$piso,$dpto,"","",$ciudad,$provincia,"",$id_usuario);
 
-            if ($edited_phone && $edited_mobile && $edited_direction) {
-                $query = $this->db->prepare("UPDATE persona
-                                             SET nombre=:nombre,apellido=:apellido,dni=:dni,fecha_nac=DATE(STR_TO_DATE(:fNacimiento,'%d/%m/%Y')),
-                                                 modified=NOW(),id_user_modified=:id_usuario
-                                             WHERE id = :id_persona");
+
+            $query = $this->db->prepare("UPDATE persona
+                                         SET nombre=:nombre,apellido=:apellido,dni=:dni,fecha_nac=DATE(STR_TO_DATE(:fNacimiento,'%d/%m/%Y')),
+                                             id_telefono=:idTelefono, id_celular=:idCelular,modified=NOW(),id_user_modified=:id_usuario
+                                         WHERE id = :id_persona");
 
 
-                $query->bindParam(':id_persona', $id_persona);
-                $query->bindParam(':nombre', $nombre);
-                $query->bindParam(':apellido', $apellido);
-                $query->bindParam(':dni', $dni);
-                $query->bindParam(':fNacimiento', $fNacimiento);
-                $query->bindParam(':id_usuario', $id_usuario);
+            $query->bindParam(':id_persona', $id_persona);
+            $query->bindParam(':nombre', $nombre);
+            $query->bindParam(':apellido', $apellido);
+            $query->bindParam(':dni', $dni);
+            $query->bindParam(':fNacimiento', $fNacimiento);
+            $query->bindParam(':idCelular', $edited_mobile);
+            $query->bindParam(':idTelefono', $edited_phone);
+            $query->bindParam(':id_usuario', $id_usuario);
 
-                $query->execute();
+            $query->execute();
 
-                if ($query->rowCount() <= 0) return false;
-                return true;
-            }
-            return false;
+            if ($query->rowCount() <= 0) return false;
+            return true;
         }catch(PDOException $e){
             return $e;
         }
