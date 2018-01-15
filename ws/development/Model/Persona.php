@@ -87,7 +87,8 @@ class Persona
                                       ON p.id_celular = tc.id
                                       LEFT JOIN direccion dp
                                       ON p.id_direccion = dp.id
-                                      where p.removed=0");
+                                      where p.removed=0
+                                      order by p.nombre, p.apellido ASC");
             $query->execute();
             if($query->rowCount() <= 0)  return false;
             return $query->fetchAll(PDO::FETCH_ASSOC);
@@ -191,9 +192,9 @@ class Persona
     private function editRegisteredPerson($id_persona,$nombre,$apellido,$dni,$fNacimiento,$telefonoId,$telefono,$celularId,$celular,$direccionId,$calle,$nro,$piso,$dpto,$ciudad,$provincia,$id_usuario){
 
         try{
-            $edited_phone=true;
-            $edited_mobile=true;
-            if ($telefonoId != "") {
+            $edited_phone=$telefonoId;
+            $edited_mobile=$celularId;
+            if ($telefonoId && $telefonoId != "") {
                 $edited_phone = Telefono::getInstance()->editPhone($telefonoId, $telefono, $id_usuario);
             }else{
                 $edited_phone=Telefono::getInstance()->addPhone(0,$telefono,$id_usuario);
@@ -201,7 +202,7 @@ class Persona
             if ($celularId != "") {
                 $edited_mobile = Telefono::getInstance()->editPhone($celularId, $celular, $id_usuario);
             }else{
-                $edited_mobile=Telefono::getInstance()->addPhone(0,$celular,$id_usuario);
+                $edited_mobile=Telefono::getInstance()->addPhone(1,$celular,$id_usuario);
             }
 
             $edited_direction=Direccion::getInstance()->editAddress($direccionId,$calle,$nro,$piso,$dpto,"","",$ciudad,$provincia,"",$id_usuario);

@@ -87,7 +87,7 @@ class Telefono{
             $query->execute();
 
             if ($query->rowCount() <= 0) return false;
-            return true;
+            return $telefonoId;
 
         }catch(PDOException $e){
             return $e;
