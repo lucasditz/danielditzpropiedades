@@ -82,7 +82,7 @@ function loadPersonData(){
             persona.celular.nro!=null?document.getElementById("celularPersona_input").value=persona.celular.nro:"";
 
             document.getElementById("callePersona_input").value=persona.direccion.calle;
-            document.getElementById("nroPersona_input").value=persona.direccion.nro;
+            document.getElementById("nroPersona_input").value=persona.direccion.nro!=0?persona.direccion.nro:"";
             document.getElementById("pisoPersona_input").value=persona.direccion.piso;
             document.getElementById("dptoPersona_input").value=persona.direccion.dpto;
             document.getElementById("ciudadPersona_input").value=persona.direccion.ciudad;

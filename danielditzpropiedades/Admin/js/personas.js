@@ -31,6 +31,7 @@ function loadPersonasRegistradas() {
                 personas=response.data.personas;
                 $('#table_content_body_personas').empty();
                 var i=0;
+                console.log(response.data.personas);
                 $.each(response.data.personas, function () {
                     var id = this.id;
                     // Nombre competo
@@ -46,7 +47,6 @@ function loadPersonasRegistradas() {
                 if ( !$.fn.dataTable.isDataTable( '#table_content_personas' ) ) {
                     personasTable=$('#table_content_personas').dataTable(
                         {   "aoColumnDefs": [{ 'bSortable': false, 'aTargets': [1] }],
-                            "order": [[ 0, "desc" ]],
                             "language": {"url": "dataTable_spanish.json"},
                             "initComplete": function(settings, json) {
                                 var mainTableDiv=document.getElementById("table_content_personas_wrapper"),
