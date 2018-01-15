@@ -98,10 +98,13 @@ function loadAlquileresDisponibles(){
                         direccion+=' Piso: ' + this.direccion.piso;
                     if (this.direccion.dpto != "")
                         direccion+=' Dto: '+this.direccion.dpto;
-                    //Propietario
-                    var propietario=this.propietario.apellido + ", "+ this.propietario.nombre;
+                    //Propietarios
+                    var propietario = "<br/>";
+                    this.propietarios.forEach(function(prop) {
+                        propietario+=prop.apellido + ", "+ prop.nombre + "<br/>";
+                    });
                     var dataTable= '<tr role="row" class="odd" data-id='+id+'><td><img id="img-alquileres" src="images/inbox.png"</img></td>' +
-                        '<td><p id="dir-alquileres">'+direccion+'</p><p id="prop-alquileres"><u><b>Propietario:</b></u> '+propietario+'</p><p id="valor-alquileres"><u><b>Valor:</b></u> '+this.valor+'</p></td>' +
+                        '<td><p id="dir-alquileres">'+direccion+'</p><p id="prop-alquileres"><u><b>Propietarios:</b></u> '+propietario+'</p><p id="valor-alquileres"><u><b>Valor:</b></u> '+this.valor+'</p></td>' +
                         '<td style="text-align: center;vertical-align: middle;"><i class="fa fa-eye fa-2x actionImage" onclick="verPropiedad($(this),$(this).parent().parent());" data-toggle="tooltip" title="Ver"></i></td>' +
                         '<td style="text-align: center;vertical-align: middle;"><i class="fa fa-edit fa-2x actionImage" onclick="editPropiedad($(this),$(this).parent().parent());" data-toggle="tooltip" title="Editar"></i></td>' +
                         '<td style="text-align: center;vertical-align: middle;"><i class="fa fa-times-circle fa-2x actionImage" onclick="deletePropiedad($(this).parent().parent());" data-toggle="tooltip" title="Eliminar"></i></td></tr>';
