@@ -6,6 +6,7 @@ include_once 'Model/Usuario.php';
 include_once 'Model/Telefono.php';
 include_once 'Model/Direccion.php';
 include_once 'Model/Inmueble.php';
+include_once 'Model/Inmueble_Propietario.php';
 include_once 'Model/Alquileres_Disponibles.php';
 include_once 'Model/Alquileres_Contrato.php';
 
@@ -582,14 +583,16 @@ $app->post('/alquileres/alquileresDisponibles',  function () use ($app) {
                 $data_json['data']['message'] = 'Alquileres Disponibles';
                 $data_json['data']['status'] = '10001';
                 // $data_json['data']['propiedades'] = $result;
-                $i = 0;
                 for ($i = 0; $i < sizeof($result); $i++) {
                     $data_json['data']['propiedades'][$i]["id"] = $result[$i]['id'];
                     $data_json['data']['propiedades'][$i]["valor"] = $result[$i]['valor'];
                     $data_json['data']['propiedades'][$i]["foto_perfil"] = $result[$i]['foto_perfil'];
-                    /** PROPIETARIO **/
-                    $data_json['data']['propiedades'][$i]["propietario"]["apellido"] = $result[$i]['apellido'];
-                    $data_json['data']['propiedades'][$i]["propietario"]["nombre"] = $result[$i]['nombre'];
+                    /** PROPIETARIOS **/
+                    $propietarios = Inmueble_Propietario::getInstance()->getAllPropietarios($result[$i]['id']);
+                    for ($j = 0; $j < sizeof($propietarios); $j++){
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["apellido"] = $propietarios[$j]['apellido'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["nombre"] = $propietarios[$j]['nombre'];
+                    }
                     /** Direccion **/
                     $data_json['data']['propiedades'][$i]["direccion"]["calle"] = $result[$i]['calle'];
                     $data_json['data']['propiedades'][$i]["direccion"]["nro"] = $result[$i]['nro'];

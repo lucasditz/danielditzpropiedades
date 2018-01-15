@@ -63,8 +63,6 @@ class Alquileres_Disponibles
                                             ia.id,
                                             ia.valor as valor,
                                             i.id_foto as foto_perfil,
-                                            p.nombre,
-                                            p.apellido,
                                             d.calle,
                                             d.nro,
                                             d.piso,
@@ -75,8 +73,6 @@ class Alquileres_Disponibles
                                             d.provincia,
                                             d.cod_postal
                                       FROM inm_alquiler ia
-                                      LEFT JOIN persona p
-                                      ON ia.id_propietario = p.id
                                       LEFT JOIN inmueble i
                                       ON ia.id_inmueble = i.id
                                       LEFT JOIN direccion d
