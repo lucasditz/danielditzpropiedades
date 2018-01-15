@@ -93,7 +93,6 @@ class Alquileres_Disponibles
         try{
             $query = $this->db->prepare("SELECT ia.id as idInmuebleAlquiler,
                                             ia.valor as valor,
-                                            ia.id_propietario as idPropietario,
                                             i.id as idInmueble,
                                             i.comodidades,
                                             i.mts2,

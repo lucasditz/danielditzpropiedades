@@ -646,8 +646,12 @@ $app->post('/alquileres/alquilerDisponibleByID',  function () use ($app) {
                     $data_json['data']['propiedades'][$i]["direccion"]["provincia"] = $result[$i]['diProvincia'];
                     $data_json['data']['propiedades'][$i]["direccion"]["cod_postal"] = $result[$i]['diCodPostal'];
 
-                    /** Propietario **/
-                    $data_json['data']['propiedades'][$i]["propietario"]["id"] = $result[$i]['idPropietario'];
+                    /** PROPIETARIOS **/
+                    $propietarios = Inmueble_Propietario::getInstance()->getAllPropietarios($result[$i]['idInmueble']);
+                    for ($j = 0; $j < sizeof($propietarios); $j++){
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["apellido"] = $propietarios[$j]['apellido'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["nombre"] = $propietarios[$j]['nombre'];
+                    }
 
                     /** Inmueble Alquiler **/
                     $data_json['data']['propiedades'][$i]["idInmuebleAlquiler"] = $result[$i]['idInmuebleAlquiler'];
