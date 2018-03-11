@@ -2,15 +2,16 @@
  * Created by Martin on 15/09/2016.
  */
 
-
 function createCookie(name,value,days) {
+    var expires = "";
     if (days) {
         var date = new Date();
         date.setTime(date.getTime()+(days*24*60*60*1000));
-        var expires = "; expires="+date.toGMTString();
+        expires = "; expires="+date.toGMTString();
     }
-    else var expires = "";
-    document.cookie = name+"="+value+expires;
+    else {
+        document.cookie = name + "=" + value + expires;
+    }
 }
 
 function notImplemented(){
@@ -33,7 +34,8 @@ function getCookie(cname) {
 }
 
 function expiredCookie(cookie){
-    if (getCookie(cookie) == "")
+    if (getCookie(cookie) === "") {
         return true;
+    }
     return false;
 }
