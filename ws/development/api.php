@@ -649,8 +649,25 @@ $app->post('/alquileres/alquilerDisponibleByID',  function () use ($app) {
                     /** PROPIETARIOS **/
                     $propietarios = Inmueble_Propietario::getInstance()->getAllPropietarios($result[$i]['idInmueble']);
                     for ($j = 0; $j < sizeof($propietarios); $j++){
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["id"] = $propietarios[$j]['id'];
                         $data_json['data']['propiedades'][$i]["propietarios"][$j]["apellido"] = $propietarios[$j]['apellido'];
                         $data_json['data']['propiedades'][$i]["propietarios"][$j]["nombre"] = $propietarios[$j]['nombre'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["dni"] = $propietarios[$j]['dni'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["fechaNac"] = $propietarios[$j]['fecha_nac'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["telefonoId"] = $propietarios[$j]['telefonoId'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["telefono"] = $propietarios[$j]['telefono'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["celularId"] = $propietarios[$j]['celularId'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["celular"] = $propietarios[$j]['celular'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["idDireccion"] = $propietarios[$j]['dpid'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["calle"] = $propietarios[$j]['dpCalle'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["nro"] = $propietarios[$j]['dpNro'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["piso"] = $propietarios[$j]['dpPiso'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["dpto"] = $propietarios[$j]['dpDpto'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["entreCalles"] = $propietarios[$j]['dpEntreCalles'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["zona"] = $propietarios[$j]['dpZona'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["ciudad"] = $propietarios[$j]['dpCiudad'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["provincia"] = $propietarios[$j]['dpProvincia'];
+                        $data_json['data']['propiedades'][$i]["propietarios"][$j]["codPostal"] = $propietarios[$j]['dpCodPostal'];
                     }
 
                     /** Inmueble Alquiler **/
