@@ -75,7 +75,7 @@ function loadAlquilerData(){
             document.getElementById("valor").value=propiedad.valor;
 
             /** Datos Propietario **/
-            loadPropietarioData(propiedad.propietario.id);
+            loadPropietarioData(propiedad.propietarios[0].id);
             $('#propietarioSearchBtn').css("display","none");
 
             searchPerson=false;

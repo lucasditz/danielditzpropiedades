@@ -1,0 +1,853 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3737ca2c-edef-4bdc-ba06-af5bea94cb97" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/alquiler_contrato_edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/alquiler_contrato_ver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/alquiler_disponible_edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/alquiler_disponible_ver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/alquileres_contrato.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/alquileres_disponibles.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/alquileres_seniados.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/backup/direccion_input.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/backup/direccion_input.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/backup/direccion_view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/backup/persona_input.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/backup/persona_input.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/backup/persona_view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/contrato_input.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/css/components.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/garante_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/inmueble_input.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/inmueble_view.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/inquilino_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/js/contrato_input.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/js/garante_form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/js/inmueble_input.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/js/inquilino_form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/js/person_form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/js/propietario_form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/person_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/components/propietario_form.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/css/alquileres.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/css/custom_global.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/dataTable_spanish.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/home.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/american-express.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/background.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/cropper.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/default-profile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/fondoLogin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/inbox.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/mastercard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/matias.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/media.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/paypal.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/picture.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/prod-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/prod-2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/prod-3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/prod-4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/prod-5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/user.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/images/visa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/inicio.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/Base64.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/FTP/ftpManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/FTP/jsftp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/alquileres_contrato.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/alquileres_contrato_add.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/alquileres_contrato_edit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/alquileres_contrato_ver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/alquileres_disponibles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/alquileres_disponibles_add.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/alquileres_disponibles_edit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/alquileres_disponibles_ver.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/alquileres_seniados.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/bootbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/change_pass.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/cookie_utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/custom_global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/datepicker/daterangepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/edit_profile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/login.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/moment/moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/personas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/personas_add.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/personas_edit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/personas_view.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/utils.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/variables.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/loading_page.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/login.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/nav_bar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/nueva_persona.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/nuevo_alquiler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/nuevo_alquiler_contrato.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/page_403.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/page_404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/page_500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/personas.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/personas_edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/personas_ver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/sidebar_menu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/danielditzpropiedades/TestAdmin/template.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/danielditzpropiedades/Admin/js/alquileres_disponibles_ver.js" afterPath="$PROJECT_DIR$/danielditzpropiedades/Admin/js/alquileres_disponibles_ver.js" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ws/development/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="117">
+              <caret line="651" column="75" lean-forward="false" selection-start-line="651" selection-start-column="63" selection-end-line="651" selection-end-column="75" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alquiler_disponible_ver.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/alquiler_disponible_ver.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="132" column="44" lean-forward="false" selection-start-line="132" selection-start-column="44" selection-end-line="132" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alquileres_disponibles_ver.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/alquileres_disponibles_ver.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="77" column="54" lean-forward="false" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>editRegisteredPerson</find>
+      <find>/persona/edit</find>
+      <find>window.ws_persona_edit</find>
+      <find>checkDatosPersona</find>
+      <find>getPropiedadesDisponibles</find>
+      <find>getPersons</find>
+      <find>getAllPropiedades</find>
+      <find>alquileres/alquileresDisponibles</find>
+      <find>getPropiedadByID</find>
+      <find>openClosePropietarioSearchPanel</find>
+      <find>fNacimientoPropietario_view</find>
+      <find>zona</find>
+      <find>fecha</find>
+      <find>cod</find>
+      <find>window.ws_address_getAll</find>
+      <find>window.ws_address_input_getAll</find>
+      <find>&lt;!-- menu profile quick info --&gt;</find>
+      <find>address</find>
+      <find>setUserProfile</find>
+      <find>user</find>
+      <find>getParam</find>
+      <find>alquile</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\inmoba.com.ar\danielditzpropiedades\Admin</dir>
+      <dir>C:\xampp\htdocs\inmoba.com.ar\danielditzpropiedades</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ws/development/Model/Telefono.php" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/js/personas_edit.js" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/js/personas_ver.js" />
+        <option value="$PROJECT_DIR$/ws/development/Model/Persona.php" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/js/personas.js" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/layouts/home.php" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/js/utils.js" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/migraciones/sql/15012018120401_crea_tabla_inm_alquiler_propietario.sql" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/migraciones/sql/15012018122801_crea_tabla_inm_alquiler_contrato_garante.sql" />
+        <option value="$PROJECT_DIR$/ws/development/Model/Inmueble_Propietario.php" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/js/alquileres_disponibles.js" />
+        <option value="$PROJECT_DIR$/ws/development/Model/Alquileres_Disponibles.php" />
+        <option value="$PROJECT_DIR$/ws/development/api.php" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/js/modues/AlquileresDisponibles/AlquileresDisponiblesVerModule.js" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/js/modules/AlquileresDisponibles/AlquileresDisponiblesVerModule.js" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/alquiler_disponible_ver.php" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/index.php" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/layouts/AlquileresDisponibles/alquiler_disponible_ver.html" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/js/variables.js" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/home.php" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/template.php" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/js/Base64.js" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/js/cookie_utils.js" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/js/AlquileresDisponibles/alquileres_disponibles_ver.js" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/layouts/AlquileresDisponibles/alquiler_disponible_ver.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/danielditzpropiedades/Admin/js/alquileres_disponibles_ver.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inmoba.com.ar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inmoba.com.ar" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inmoba.com.ar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inmoba.com.ar" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ws" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inmoba.com.ar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inmoba.com.ar" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ws" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="development" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inmoba.com.ar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inmoba.com.ar" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="danielditzpropiedades" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inmoba.com.ar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inmoba.com.ar" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="danielditzpropiedades" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inmoba.com.ar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inmoba.com.ar" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="danielditzpropiedades" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inmoba.com.ar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inmoba.com.ar" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="danielditzpropiedades" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.selected.package.jscs" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\inmoba.com.ar\danielditzpropiedades" />
+      <recent name="C:\xampp\htdocs\inmoba.com.ar\danielditzpropiedades\Admin" />
+      <recent name="C:\xampp\htdocs\inmoba.com.ar\danielditzpropiedades\Admin\js" />
+      <recent name="C:\xampp\htdocs\inmoba.com.ar\danielditzpropiedades\Admin\layouts\AlquileresDisponibles" />
+      <recent name="C:\xampp\htdocs\inmoba.com.ar\danielditzpropiedades\Admin\js\AlquileresDisponibles" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3737ca2c-edef-4bdc-ba06-af5bea94cb97" name="Default" comment="" />
+      <created>1516022949711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1516022949711</updated>
+      <workItem from="1516022963709" duration="7250000" />
+      <workItem from="1516041180943" duration="5414000" />
+      <workItem from="1520684106230" duration="18107000" />
+      <workItem from="1520771645768" duration="50000" />
+      <workItem from="1520777994914" duration="1302000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="32123000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/ws/development/api.php</url>
+          <line>10</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ws/development/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4607">
+          <caret line="271" column="38" lean-forward="false" selection-start-line="271" selection-start-column="34" selection-end-line="271" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/variables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws/development/Model/Inmueble_Propietario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="43" selection-end-line="54" selection-end-column="72" />
+          <folding>
+            <marker date="1516048842947" expanded="true" signature="782:2688" ph="SELECT p.id,... inm_alquiler_propietario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/alquileres_disponibles_ver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="46" lean-forward="false" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="41" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
+          <folding>
+            <marker date="1516028498613" expanded="true" signature="2911:2913" ph="{&quot;userProfileCallback&quot;: undefined...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/cookie_utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="31" lean-forward="false" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/components/propietario_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="86" lean-forward="false" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/components/js/person_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1516028498240" expanded="true" signature="1914:1930" ph="..." />
+            <marker date="1516028498240" expanded="true" signature="2025:2067" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/alquiler_disponible_ver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="66" column="61" lean-forward="false" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws/development/Model/Alquileres_Disponibles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="94" column="62" lean-forward="false" selection-start-line="94" selection-start-column="62" selection-end-line="94" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws/development/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10523">
+          <caret line="619" column="12" lean-forward="false" selection-start-line="619" selection-start-column="12" selection-end-line="619" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/alquileres_disponibles_ver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="31" lean-forward="false" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/components/js/propietario_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="86" column="36" lean-forward="false" selection-start-line="86" selection-start-column="36" selection-end-line="86" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/components/propietario_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/alquiler_contrato_ver.php" />
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/components/propietario_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws/development/Model/Telefono.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="68" column="45" lean-forward="false" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/personas.js" />
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/personas_ver.js" />
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/personas_edit.js" />
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/layouts/personas_edit.php" />
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/layouts/home.php" />
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/migraciones/sql/15012018122801_crea_tabla_inm_alquiler_contrato_garante.sql" />
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/migraciones/sql/15012018120401_crea_tabla_inm_alquiler_propietario.sql" />
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/alquiler_contrato_ver.php" />
+    <entry file="file://$PROJECT_DIR$/ws/development/Model/Persona.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="126" column="56" lean-forward="true" selection-start-line="126" selection-start-column="12" selection-end-line="126" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws/development/Model/Alquileres_Disponibles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="94" column="62" lean-forward="false" selection-start-line="94" selection-start-column="62" selection-end-line="94" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/alquileres_disponibles_edit.js" />
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/alquiler_disponible_edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1683">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws/development/Model/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/components/js/propietario_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="105" column="93" lean-forward="false" selection-start-line="105" selection-start-column="84" selection-end-line="105" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/alquileres_disponibles.js" />
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/modules/AlquileresDisponibles/AlquileresDisponiblesVerModule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/TestAdmin/js/variables.js" />
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/nav_bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="57" lean-forward="false" selection-start-line="0" selection-start-column="57" selection-end-line="0" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="54" lean-forward="false" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/Base64.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/edit_profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1516028498613" expanded="true" signature="2911:2913" ph="{&quot;userProfileCallback&quot;: undefined...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/cookie_utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/components/propietario_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="49" column="86" lean-forward="false" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/components/js/person_form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <marker date="1516028498240" expanded="true" signature="1914:1930" ph="..." />
+            <marker date="1516028498240" expanded="true" signature="2025:2067" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws/development/Model/Inmueble_Propietario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="39" column="43" lean-forward="false" selection-start-line="39" selection-start-column="43" selection-end-line="54" selection-end-column="72" />
+          <folding>
+            <marker date="1516048842947" expanded="true" signature="782:2688" ph="SELECT p.id,... inm_alquiler_propietario" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/variables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="2" column="56" lean-forward="false" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/alquiler_disponible_ver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="132" column="44" lean-forward="false" selection-start-line="132" selection-start-column="44" selection-end-line="132" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ws/development/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="651" column="75" lean-forward="false" selection-start-line="651" selection-start-column="63" selection-end-line="651" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/danielditzpropiedades/Admin/js/alquileres_disponibles_ver.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="77" column="54" lean-forward="false" selection-start-line="77" selection-start-column="54" selection-end-line="77" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
